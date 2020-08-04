@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322806330452",
+    "firebase_url": "https://cryptocurrency-f873f.firebaseio.com",
+    "project_id": "cryptocurrency-f873f",
+    "storage_bucket": "cryptocurrency-f873f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322806330452:android:19b313ad81ded5f86429c1",
+        "android_client_info": {
+          "package_name": "com.example.medihome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322806330452-g865j3t40bjl1ikhch0qp9himamcf3sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medihome",
+            "certificate_hash": "549bdf86bcbf7387eb8dfa689861033dd237d221"
+          }
+        },
+        {
+          "client_id": "322806330452-oevao98j9rgj2s47v3fh9ijmstfvb9mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzublAgpt1mHlwceOQelf0LKGl5987Ck8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322806330452-oevao98j9rgj2s47v3fh9ijmstfvb9mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
