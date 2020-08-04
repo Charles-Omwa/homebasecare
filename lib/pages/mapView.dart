@@ -137,34 +137,34 @@ class _MapViewState extends State<MapView> {
                           request['address'],
                         ),
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: <Widget>[
-                          RaisedButton(
-                            onPressed: () {
-                              UrlLauncher.launch("tel:${request['phone']}");
-                            },
-                            textColor: Colors.white,
-                            padding: EdgeInsets.only(left: 5.0, right: 5.0),
-                            color: Colors.deepPurple,
-                            child: Icon(Icons.phone),
-                            shape: new RoundedRectangleBorder(
-                                borderRadius: new BorderRadius.circular(30.0)),
-                          ),
-                          RaisedButton(
-                            onPressed: () {
-                              String message="Hello $_name, I'd Like to request for your service. Reply or call back if you are available.";
-                              UrlLauncher.launch("sms:${request['phone']}?body=$message");
-                            },
-                            textColor: Colors.white,
-                            padding: EdgeInsets.only(left: 5.0, right: 5.0),
-                            color: Colors.deepPurple,
-                            child: Icon(Icons.message),
-                            shape: new RoundedRectangleBorder(
-                                borderRadius: new BorderRadius.circular(30.0)),
-                          ),
-                        ],
-                      ),
+//                      Row(
+//                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+//                        children: <Widget>[
+//                          RaisedButton(
+//                            onPressed: () {
+//                              UrlLauncher.launch("tel:${request['phone']}");
+//                            },
+//                            textColor: Colors.white,
+//                            padding: EdgeInsets.only(left: 5.0, right: 5.0),
+//                            color: Colors.deepPurple,
+//                            child: Icon(Icons.phone),
+//                            shape: new RoundedRectangleBorder(
+//                                borderRadius: new BorderRadius.circular(30.0)),
+//                          ),
+//                          RaisedButton(
+//                            onPressed: () {
+//                              String message="Hello $_name, I'd Like to request for your service. Reply or call back if you are available.";
+//                              UrlLauncher.launch("sms:${request['phone']}?body=$message");
+//                            },
+//                            textColor: Colors.white,
+//                            padding: EdgeInsets.only(left: 5.0, right: 5.0),
+//                            color: Colors.deepPurple,
+//                            child: Icon(Icons.message),
+//                            shape: new RoundedRectangleBorder(
+//                                borderRadius: new BorderRadius.circular(30.0)),
+//                          ),
+//                        ],
+//                      ),
                     ],
                   ),
                 );
