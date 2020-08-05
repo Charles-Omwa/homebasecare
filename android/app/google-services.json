@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "826815590567",
+    "firebase_url": "https://homecare-e8094.firebaseio.com",
+    "project_id": "homecare-e8094",
+    "storage_bucket": "homecare-e8094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826815590567:android:d55b221a51a68e383aeb82",
+        "android_client_info": {
+          "package_name": "com.example.medihome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826815590567-8qg1bkbue0uafte9mddo9u8ofckpj6o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medihome",
+            "certificate_hash": "549bdf86bcbf7387eb8dfa689861033dd237d221"
+          }
+        },
+        {
+          "client_id": "826815590567-fp1h72inuiljph50ki6pph710dsqv2uq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8tfypHeY4b0Re1mxKf42dNPeMn5_1PS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826815590567-fp1h72inuiljph50ki6pph710dsqv2uq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
