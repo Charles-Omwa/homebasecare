@@ -2,16 +2,15 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lifeshare/screens/begin_screen.dart';
-import 'package:lifeshare/screens/start_screen.dart';
-import 'package:lifeshare/screens/warning_screen.dart';
+
 import 'package:lifeshare/utils/bottomAnimation.dart';
 import 'package:lifeshare/utils/fadeAnimation.dart';
 
-import '../covidnavigation.dart';
+
 import 'auth.dart';
 import 'availableservice.dart';
-import 'home.dart';
+import 'covid.dart';
+
 
 
 class Category extends StatefulWidget {
@@ -127,7 +126,7 @@ class _CategoryState extends State<Category> {
                       child: RaisedButton(
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) =>CovidNavigationScreen()));
+                              MaterialPageRoute(builder: (context) => CovidStats()));
                         },
                         color: Colors.white,
                         child: Text("Covid-19 Safety"),
